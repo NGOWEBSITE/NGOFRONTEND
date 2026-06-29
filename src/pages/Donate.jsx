@@ -30,7 +30,7 @@ export default function Donate() {
         description="Every donation helps fund programs that deliver direct support to vulnerable communities."
       />
       <div className="mt-10 grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
-        <section className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
+        <section className="surface-card p-8">
           <div className="flex items-start gap-4">
             <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700">
               <FiShield size={22} />
@@ -97,7 +97,7 @@ export default function Donate() {
           )}
           </form>
         </section>
-        <section className="rounded-lg border border-emerald-100 bg-emerald-50 p-8 shadow-sm">
+        <section className="soft-panel p-8">
           <h3 className="text-2xl font-semibold text-slate-950">Why donate?</h3>
           <ul className="mt-6 space-y-4 text-slate-700">
             {impactNotes.map((note) => (

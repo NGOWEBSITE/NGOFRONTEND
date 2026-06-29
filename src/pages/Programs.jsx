@@ -1,5 +1,5 @@
 import SectionHeader from '../components/SectionHeader';
-import { FiBookOpen, FiHeart, FiSun, FiTrendingUp, FiUsers } from 'react-icons/fi';
+import { FiArrowRight, FiBookOpen, FiHeart, FiSun, FiTrendingUp, FiUsers } from 'react-icons/fi';
 
 const programs = [
   {
@@ -52,13 +52,14 @@ export default function Programs() {
         {programs.map((program) => {
           const Icon = program.icon;
           return (
-            <div key={program.title} className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+            <div key={program.title} className="surface-card p-8">
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700">
                 <Icon size={22} />
               </div>
               <h3 className="mt-6 text-xl font-semibold text-slate-950">{program.title}</h3>
               <p className="mt-3 text-slate-600">{program.description}</p>
               <p className="mt-5 rounded-lg bg-slate-50 p-4 text-sm font-medium text-slate-700">{program.focus}</p>
+              <button type="button" className="card-link mt-6">View program <FiArrowRight /></button>
             </div>
           );
         })}

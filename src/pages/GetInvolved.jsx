@@ -33,7 +33,7 @@ export default function GetInvolved() {
         {opportunities.map((opportunity) => {
           const Icon = opportunity.icon;
           return (
-            <div key={opportunity.title} className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
+            <div key={opportunity.title} className="surface-card p-8">
               <div className="flex h-12 w-12 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700">
                 <Icon size={22} />
               </div>
@@ -45,7 +45,7 @@ export default function GetInvolved() {
       </div>
 
       <div className="mt-12 grid gap-8 lg:grid-cols-[1.05fr_0.95fr]">
-        <section className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
+        <section className="surface-card p-8">
           <h3 className="text-2xl font-semibold text-slate-950">Volunteer application</h3>
           <form className="mt-6 grid gap-5 sm:grid-cols-2">
             <input className="rounded-lg border border-slate-300 px-4 py-3 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100" placeholder="Full name" />
@@ -60,7 +60,7 @@ export default function GetInvolved() {
           </form>
         </section>
 
-        <section className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
+        <section className="surface-card p-8">
           <h3 className="text-2xl font-semibold text-slate-950">Careers and internships</h3>
           <div className="mt-6 space-y-3">
             {vacancies.map((vacancy) => (
@@ -73,7 +73,7 @@ export default function GetInvolved() {
         </section>
       </div>
 
-      <section className="mt-8 rounded-lg border border-emerald-100 bg-emerald-50 p-8 shadow-sm">
+      <section className="soft-panel mt-8 p-8">
         <h3 className="text-2xl font-semibold text-slate-950">Partner with us</h3>
         <form className="mt-6 grid gap-5 md:grid-cols-3">
           <input className="rounded-lg border border-emerald-200 px-4 py-3 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100" placeholder="Organization" />

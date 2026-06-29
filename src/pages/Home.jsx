@@ -106,7 +106,7 @@ export default function Home() {
       <section className="border-b border-slate-200 bg-white">
         <div className="mx-auto grid max-w-7xl gap-4 px-4 py-6 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
           {stats.map((stat) => (
-            <div key={stat.label} className="rounded-lg border border-slate-200 bg-slate-50 p-5">
+            <div key={stat.label} className="surface-card bg-slate-50 p-5">
               <p className="text-3xl font-semibold text-slate-950">{stat.value}</p>
               <p className="mt-1 text-sm font-medium text-slate-600">{stat.label}</p>
             </div>
@@ -127,7 +127,7 @@ export default function Home() {
           {featuredPrograms.map((program) => {
             const Icon = program.icon;
             return (
-              <div key={program.title} className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+              <div key={program.title} className="surface-card p-6">
                 <div className="flex items-start gap-4">
                   <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700">
                     <Icon size={22} />
@@ -156,9 +156,10 @@ export default function Home() {
         </div>
         <div className="mt-10 grid gap-5 lg:grid-cols-3">
           {latestNews.map((story) => (
-            <article key={story.title} className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
-              <p className="text-sm font-semibold text-emerald-700">{story.date}</p>
+            <article key={story.title} className="surface-card p-6">
+              <p className="brand-pill">{story.date}</p>
               <h3 className="mt-3 text-xl font-semibold text-slate-950">{story.title}</h3>
+              <Link to="/news" className="card-link mt-5">Read update <FiArrowRight /></Link>
             </article>
           ))}
         </div>
@@ -179,7 +180,7 @@ export default function Home() {
           </div>
           <div className="mt-10 grid gap-6 lg:grid-cols-3">
             {featuredProjects.map((project) => (
-              <div key={project.title} className="rounded-lg border border-white/10 bg-white/10 p-6">
+              <div key={project.title} className="rounded-lg border border-white/10 bg-white/10 p-6 transition hover:-translate-y-1 hover:border-emerald-300/40 hover:bg-white/15">
                 <FiUsers className="text-emerald-300" size={24} />
                 <h3 className="mt-5 text-xl font-semibold">{project.title}</h3>
                 <p className="mt-3 text-slate-300">{project.description}</p>
@@ -199,7 +200,7 @@ export default function Home() {
           />
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
             {testimonials.map((story) => (
-              <figure key={story.name} className="rounded-lg border border-slate-200 bg-slate-50 p-8">
+              <figure key={story.name} className="surface-card bg-slate-50 p-8">
                 <FiMessageCircle className="text-emerald-700" size={26} />
                 <blockquote className="mt-5 text-xl font-medium leading-8 text-slate-900">"{story.quote}"</blockquote>
                 <figcaption className="mt-5">

@@ -1,4 +1,4 @@
-import { FiCalendar } from 'react-icons/fi';
+import { FiArrowRight, FiCalendar } from 'react-icons/fi';
 import SectionHeader from '../components/SectionHeader';
 
 const stories = [
@@ -29,13 +29,14 @@ export default function News() {
       />
       <div className="mt-10 grid gap-6 lg:grid-cols-3">
         {stories.map((story) => (
-          <article key={story.title} className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm transition hover:-translate-y-1 hover:shadow-md">
+          <article key={story.title} className="surface-card p-8">
             <div className="flex items-center justify-between gap-4">
-              <span className="rounded-lg bg-emerald-50 px-3 py-1 text-sm font-semibold text-emerald-700">{story.category}</span>
+              <span className="brand-pill">{story.category}</span>
               <span className="flex items-center gap-2 text-sm text-slate-500"><FiCalendar /> {story.date}</span>
             </div>
             <h3 className="mt-5 text-xl font-semibold text-slate-950">{story.title}</h3>
             <p className="mt-4 text-slate-600">Read the latest field update from our team and community partners.</p>
+            <button type="button" className="card-link mt-6">Read story <FiArrowRight /></button>
           </article>
         ))}
       </div>

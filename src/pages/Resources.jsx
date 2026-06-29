@@ -20,16 +20,16 @@ export default function Resources() {
       />
       <div className="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
         {resources.map((resource) => (
-          <article key={resource.title} className="rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
+          <article key={resource.title} className="surface-card p-6">
             <div className="flex items-start justify-between gap-4">
               <div className="flex h-11 w-11 items-center justify-center rounded-lg bg-emerald-50 text-emerald-700">
                 <FiFileText size={21} />
               </div>
-              <span className="rounded-lg bg-slate-100 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-slate-600">{resource.type}</span>
+              <span className="brand-pill">{resource.type}</span>
             </div>
             <h3 className="mt-5 text-xl font-semibold text-slate-950">{resource.title}</h3>
             <p className="mt-3 text-slate-600">{resource.detail}</p>
-            <button type="button" className="mt-6 inline-flex items-center gap-2 rounded-lg border border-slate-300 px-4 py-2 font-semibold text-slate-700 transition hover:border-emerald-500 hover:text-emerald-700">
+            <button type="button" className="card-link mt-6">
               <FiDownload /> Download
             </button>
           </article>

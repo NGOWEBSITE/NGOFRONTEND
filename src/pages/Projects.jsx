@@ -1,3 +1,4 @@
+import { FiArrowRight } from 'react-icons/fi';
 import SectionHeader from '../components/SectionHeader';
 import projectImage from '../assets/ngoimage.jpg';
 
@@ -44,7 +45,7 @@ export default function Projects() {
       </div>
       <div className="mt-10 grid gap-6 lg:grid-cols-3">
         {projects.map((project) => (
-          <div key={project.title} className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
+          <div key={project.title} className="surface-card p-8">
             <div className={`inline-flex rounded-lg px-3 py-1 text-sm font-semibold ${project.status === 'Active' ? 'bg-emerald-50 text-emerald-700' : 'bg-slate-100 text-slate-700'}`}>{project.status}</div>
             <h3 className="mt-4 text-xl font-semibold text-slate-950">{project.title}</h3>
             <p className="mt-3 text-slate-600">{project.summary}</p>
@@ -66,7 +67,7 @@ export default function Projects() {
                 <dd className="text-slate-800">{project.partner}</dd>
               </div>
             </dl>
-            <button type="button" className="mt-6 rounded-lg border border-slate-300 px-4 py-2 font-semibold text-slate-700 transition hover:border-emerald-500 hover:text-emerald-700">Read more</button>
+            <button type="button" className="card-link mt-6">Read more <FiArrowRight /></button>
           </div>
         ))}
       </div>

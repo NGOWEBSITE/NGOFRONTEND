@@ -17,7 +17,7 @@ export default function Contact() {
         description="Reach out for partnerships, volunteer opportunities, or general inquiries."
       />
       <div className="mt-10 grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-        <section className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
+        <section className="surface-card p-8">
           <h3 className="text-2xl font-semibold text-slate-950">Get in touch</h3>
           <div className="mt-6 space-y-5">
             {contactDetails.map((detail) => {
@@ -36,7 +36,7 @@ export default function Contact() {
             })}
           </div>
         </section>
-        <section className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
+        <section className="surface-card p-8">
           <form className="grid gap-5">
             <div>
               <label htmlFor="name" className="text-sm font-semibold text-slate-700">Your name</label>
@@ -56,7 +56,7 @@ export default function Contact() {
           </form>
         </section>
       </div>
-      <section className="mt-8 overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm">
+      <section className="surface-card mt-8">
         <div className="grid min-h-72 place-items-center bg-slate-900 p-8 text-center text-white">
           <div>
             <FiMapPin className="mx-auto text-emerald-300" size={34} />

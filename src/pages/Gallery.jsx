@@ -23,10 +23,10 @@ export default function Gallery() {
       />
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {galleryItems.map((item, index) => (
-          <article key={item.title} className={`${index === 0 ? 'lg:col-span-2' : ''} overflow-hidden rounded-lg border border-slate-200 bg-white shadow-sm`}>
+          <article key={item.title} className={`${index === 0 ? 'lg:col-span-2' : ''} surface-card`}>
             <img src={item.image} alt={item.title} className="aspect-[4/3] w-full object-cover" />
             <div className="p-5">
-              <p className="text-sm font-semibold uppercase tracking-[0.12em] text-emerald-700">{item.category}</p>
+              <p className="brand-pill">{item.category}</p>
               <h3 className="mt-2 text-xl font-semibold text-slate-950">{item.title}</h3>
             </div>
           </article>
