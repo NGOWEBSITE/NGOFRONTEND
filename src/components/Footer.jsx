@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <p className="brand-pill">Stay connected</p>
             <h2 className="mt-3 text-2xl font-semibold text-slate-950">Get field updates and opportunities to help.</h2>
-            <p className="mt-2 text-slate-600">Receive project stories, reports, events, and volunteer calls from Nurture Global.</p>
+            <p className="mt-2 text-slate-600">Receive project stories, reports, events, and volunteer calls from Nurture Uganda.</p>
           </div>
           <form className="flex flex-col gap-3 sm:flex-row">
             <input type="email" className="min-w-0 rounded-lg border border-slate-300 px-4 py-3 text-slate-900 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100 sm:w-72" placeholder="Email address" />
@@ -19,9 +19,9 @@ export default function Footer() {
       </div>
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div>
-          <div className="flex items-center gap-3">
-            <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-500 font-semibold text-slate-950">NG</div>
-            <h3 className="text-xl font-semibold text-white">Nurture Global</h3>
+          <div className="flex items-center gap-3">           
+             <img src="ngologo.png" alt="" />
+
           </div>
           <p className="mt-3 max-w-sm text-sm leading-7">
             Working with communities to improve education, health, livelihoods, and climate resilience.
@@ -49,10 +49,10 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold text-white">Contact</h4>
           <ul className="mt-3 space-y-3 text-sm">
-            <li className="flex items-center gap-2"><FiMail /> hello@nurtureglobal.org</li>
-            <li className="flex items-center gap-2"><FiPhone /> +255 712 345 678</li>
-            <li className="flex items-center gap-2"><FiFacebook /> /nurtureglobal</li>
-            <li className="flex items-center gap-2"><FiInstagram /> @nurtureglobal</li>
+            <li className="flex items-center gap-2"><FiMail /> info@nurtureug.org</li>
+            <li className="flex items-center gap-2"><FiPhone /> +256 708484169</li>
+            <li className="flex items-center gap-2"><FiFacebook /> /nurtureug</li>
+            <li className="flex items-center gap-2"><FiInstagram /> @nurtureug</li>
           </ul>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function Navbar() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <Link to="/" onClick={() => setOpen(false)} className="flex items-center gap-3">
           <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-emerald-600 text-base font-semibold text-white">
-            NG
+            <img src="ngologo.png" alt="" />
           </div>
           <div>
             <p className="text-base font-semibold text-slate-950">Nurture Global</p>
