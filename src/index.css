@@ -27,3 +27,25 @@ body {
   min-height: 100vh;
 }
 
+::selection {
+  background: #bbf7d0;
+  color: #052e16;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  outline-color: #059669;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

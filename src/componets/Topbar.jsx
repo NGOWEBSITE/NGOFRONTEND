@@ -1,6 +1,6 @@
 // src/components/Topbar.jsx
 import { useEffect, useRef } from 'react';
-import { Menu, Search, LogOut, Bell, ChevronDown } from 'lucide-react';
+import { Menu, Search, LogOut, Bell } from 'lucide-react';
 
 /**
  * Reusable dashboard Topbar.

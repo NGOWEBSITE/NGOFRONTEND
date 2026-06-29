@@ -1,7 +1,7 @@
 // src/components/Navbar.jsx
 import { useState, useEffect, useRef } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { ShoppingCart, Search, User, LogOut, X } from 'lucide-react';
+import { ShoppingCart, Search, User, LogOut } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 /**

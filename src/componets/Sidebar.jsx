@@ -1,7 +1,6 @@
 // src/components/Sidebar.jsx
 import { Link, useLocation } from 'react-router-dom';
 import { X, User, ChevronLeft, ChevronRight } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 /**
  * Reusable dashboard Sidebar.
