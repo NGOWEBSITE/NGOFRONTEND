@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <p className="brand-pill">Stay connected</p>
             <h2 className="mt-3 text-2xl font-semibold text-slate-950">Get field updates and opportunities to help.</h2>
-            <p className="mt-2 text-slate-600">Receive project stories, reports, events, and volunteer calls from Nurture Uganda.</p>
+            <p className="mt-2 text-slate-600">Receive project stories, reports, events, and volunteer calls from UMAR BIN NGOanda.</p>
           </div>
           <form className="flex flex-col gap-3 sm:flex-row">
             <input type="email" className="min-w-0 rounded-lg border border-slate-300 px-4 py-3 text-slate-900 focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100 sm:w-72" placeholder="Email address" />
@@ -49,10 +49,10 @@ export default function Footer() {
         <div>
           <h4 className="text-lg font-semibold text-white">Contact</h4>
           <ul className="mt-3 space-y-3 text-sm">
-            <li className="flex items-center gap-2"><FiMail /> info@nurtureug.org</li>
+            <li className="flex items-center gap-2"><FiMail /> info@umarbinngo.org</li>
             <li className="flex items-center gap-2"><FiPhone /> +256 708484169</li>
-            <li className="flex items-center gap-2"><FiFacebook /> /nurtureug</li>
-            <li className="flex items-center gap-2"><FiInstagram /> @nurtureug</li>
+            <li className="flex items-center gap-2"><FiFacebook /> /umarbinngo</li>
+            <li className="flex items-center gap-2"><FiInstagram /> @umarbinngo</li>
           </ul>
         </div>
       </div>

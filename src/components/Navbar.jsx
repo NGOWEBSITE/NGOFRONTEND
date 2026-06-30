@@ -25,7 +25,7 @@ export default function Navbar() {
             <img src="ngologo.png" alt="" />
           </div>
           <div>
-            <p className="text-base font-semibold text-slate-950">Nurture Global</p>
+            <p className="text-base font-semibold text-slate-950">UMAR BIN NGO</p>
             <p className="hidden text-sm text-slate-500 sm:block">Community Action Network</p>
           </div>
         </Link>

@@ -41,7 +41,7 @@ export default function Projects() {
           title="Progress across communities"
           description="Each project is designed with measurable goals, local ownership, and long-term sustainability in mind."
         />
-        <img src={projectImage} alt="Nurture Global field project work" className="aspect-[16/9] w-full rounded-lg object-cover shadow-sm" />
+        <img src={projectImage} alt="UMAR BIN NGOGlobal field project work" className="aspect-[16/9] w-full rounded-lg object-cover shadow-sm" />
       </div>
       <div className="mt-10 grid gap-6 lg:grid-cols-3">
         {projects.map((project) => (

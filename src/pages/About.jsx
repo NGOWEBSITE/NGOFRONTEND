@@ -19,13 +19,13 @@ export default function About() {
           title="A mission rooted in service"
           description="We work with local leaders and partners to create practical solutions for education, health, food security, and empowerment."
         />
-        <img src={aboutImage} alt="Community members gathered at a Nurture Global event" className="aspect-[16/10] w-full rounded-lg object-cover shadow-sm" />
+        <img src={aboutImage} alt="Community members gathered at a UMAR BIN NGOGlobal event" className="aspect-[16/10] w-full rounded-lg object-cover shadow-sm" />
       </div>
       <div className="mt-12 grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="surface-card p-8">
           <h3 className="text-2xl font-semibold text-slate-900">Our story</h3>
           <p className="mt-4 text-lg leading-8 text-slate-600">
-            Founded in 2012, Nurture Global began as a small volunteer-led initiative and has grown into a trusted development partner supporting communities across rural and peri-urban areas.
+            Founded in 2012, UMAR BIN NGOGlobal began as a small volunteer-led initiative and has grown into a trusted development partner supporting communities across rural and peri-urban areas.
           </p>
         </div>
         <div className="soft-panel p-8">

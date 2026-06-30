@@ -2,7 +2,7 @@ import { FiClock, FiMail, FiMapPin, FiPhone } from 'react-icons/fi';
 import SectionHeader from '../components/SectionHeader';
 
 const contactDetails = [
-  { label: 'Email', value: 'info@nurtureug.org', icon: FiMail },
+  { label: 'Email', value: 'info@umarbinngo.org', icon: FiMail },
   { label: 'Phone', value: '+256 708 484 169', icon: FiPhone },
   { label: 'Address', value: '14 Kijitonyama Road, Dar es Salaam', icon: FiMapPin },
   { label: 'Working hours', value: 'Monday to Friday, 8:30 AM - 5:00 PM', icon: FiClock },
@@ -44,7 +44,7 @@ export default function Contact() {
             </div>
             <div>
               <label htmlFor="email" className="text-sm font-semibold text-slate-700">Email address</label>
-              <input id="email" name="email" type="email" className="mt-2 w-full rounded-lg border border-slate-300 px-4 py-3 transition focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100" placeholder="info@nurtureug.org" />
+              <input id="email" name="email" type="email" className="mt-2 w-full rounded-lg border border-slate-300 px-4 py-3 transition focus:border-emerald-600 focus:ring-2 focus:ring-emerald-100" placeholder="info@umarbinngo.org" />
             </div>
             <div>
               <label htmlFor="message" className="text-sm font-semibold text-slate-700">Message</label>

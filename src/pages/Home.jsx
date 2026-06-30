@@ -86,7 +86,7 @@ export default function Home() {
               Empowering lives through education, health, and opportunity.
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200">
-              Nurture Global partners with local leaders to create lasting change for children, mothers, youth, and smallholder families.
+              UMAR BIN NGOGlobal partners with local leaders to create lasting change for children, mothers, youth, and smallholder families.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link to="/donate" className="inline-flex items-center gap-2 rounded-lg bg-emerald-500 px-6 py-3 font-semibold text-slate-950 shadow-sm transition hover:bg-emerald-400">
